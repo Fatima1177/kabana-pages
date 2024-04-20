@@ -1,0 +1,184 @@
+.kabanaPage{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 34px 23px;
+    background: rgba(244, 247, 254, 1);
+    .nav-sec{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .txtNav{
+            h1{
+                color: rgba(43, 54, 116, 1);
+                font-size: 30px;
+                font-weight: 700;
+            }
+            span{
+                color: rgba(112, 126, 174, 1);
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        .inpt-sec{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: #fff;
+            border-radius:30px;
+            padding: 10px;
+            .inpt-serch{
+                background:rgba(244, 247, 254, 1) ;
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+                border-radius: 20px;
+                gap: 15px;
+                input{
+                background: rgba(244, 247, 254, 1);
+                }
+            }
+            .inpt-icons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            #user{
+                width: 100%;
+                height: 41px;
+            }
+        }
+    }
+    .home{
+        display: flex;
+        align-items: start;
+        gap: 20px;
+        justify-content: space-between;
+        .bigBox{
+            
+            background: rgba(255, 255, 255, 1);
+            border-radius: 20px;
+            padding: 30px;
+            .txt-sec{
+                display: flex;
+                align-items: center;
+                padding-bottom: 40px;
+                justify-content: space-between  ;
+                h1{
+                    color: rgba(43, 54, 116, 1);
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                button{
+                    background: rgba(244, 247, 254, 1);
+                    padding: 3px 26px;
+                    border-radius: 26px;
+                    transition: .4s;
+                    &:hover{
+                        color: #fff;
+                        background: rgba(57, 101, 255, 1);
+                        transform: scale(1.01);
+                    }
+                }
+            }
+            .cards{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                background: rgba(255, 255, 255, 1);
+                .miniBox{
+                border: 1px solid rgba(112, 144, 176, 0.12);
+                padding: 20px ;
+                border-radius: 20px;
+                display: flex;
+                box-shadow: 0 1px 1px rgba(112, 144, 176, 0.564);
+                flex-direction: column;
+                gap: 20px;
+                cursor: pointer;
+                transition: .4s;
+                &:hover{
+                box-shadow: 0 4px 10px rgba(112, 144, 176, 0.564);
+                }
+                .name-sec{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h2{
+                        color: rgba(43, 54, 116, 1);
+                        font-weight: 700;
+                        font-size: 15px;
+                    }
+                    img{
+                        width: 17px;
+                        height: 17px;
+                    }
+                }
+                #img{
+                    width: 100%;
+                    height: 280px;
+                }
+                p{
+                    color: rgba(163, 174, 208, 1);
+                    font-size: 13px;
+                    font-weight: 400;
+                    max-width: 360px;
+                }
+                .users-sec{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .imgBox{
+                        display: flex;
+                        align-items: center;
+                        #absolute{
+                            position: relative;
+                            left: 12px;
+                        }
+                        #reletive{
+                            position: absolute;
+                        }
+                    }
+                    button{
+                        border-radius:10px;
+                        padding: 8px 13px;
+                        color: #fff;
+                        font-weight: 700;
+                        background: rgba(57, 101, 255, 1);
+                        font-size: 9px;
+                        transition: .3s;
+                        &:hover {
+                                color: #fff;
+                                background: rgb(3, 3, 201);
+                        }
+                        
+                    }
+                    #orange{
+                        background: orange;
+                        &:hover {
+                                color: #fff;
+                                background: rgb(187, 119, 11);
+                            }
+                    }
+                    #red{
+                        background: red;
+                        &:hover {
+                                color: #fff;
+                                background: rgb(179, 1, 1);
+                            }
+                    }
+                    #green{
+                        background: green;
+                        &:hover{
+                            color: #fff;
+                            background: rgb(4, 44, 4);
+                        }
+                    }
+
+                }
+
+            }
+            }
+        }
+    }
+
+}
